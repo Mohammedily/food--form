@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>food api project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class ="food">
+        
+      
+       <table class="8">
+        <tbody>
+            <tr>
+                <th>First Name</th>
+                <td><input type="text" name="fname" id="fname"></td>
+            </tr>
+            <tr>
+                <th>Last Name</th>
+                <td><input type="text" name="lname" id="lname"></td>
+            </tr>
+            <tr>
+                <th>Address</th>
+                <td><input type="address" name="address" id="address"></td>
+            </tr>
+            <tr>
+                <th>Pincode</th>
+                <td><input type="number" name="pincode" id="pincode"></td>
+            </tr>
+            <tr>
+                <th>Gender</th>
+                <td><input type="radio" id="age1" name="age" value="Male">
+                    <label for="age1">Male</label>
+                    <input type="radio" id="age1" name="age" value="Female">
+                    <label for="age2">Female</label> </td>
+            </tr>
+            <tr>
+                <th>food(type your 2 favorite food) </th>
+                <td><input type="text" name="food" id="food"></td>
+            </tr>
+            <tr>
+                <th>state</th>
+                <td><input type="text" name="state" id="state"></td>
+            </tr>
+
+            <tr>
+                <th>country</th>
+                <td><input type="text" name="country" id="country"></td>
+            </tr>
+
+            <tr id="btna">
+                <td colspan="2"><input type="button" name="button" id="btn" value="Add" onclick="AddRow()"></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table class="8" id="show">
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Address</th>
+                <th>Pincode</th>
+                <th>Gender</th>
+                <th>food</th>
+                <th>state</th>
+                <th>country</th>
+
+            </tr>
+        </thead>
+    </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
